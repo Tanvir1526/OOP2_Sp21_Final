@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A366D530-20A1-47D8-86B9-6A45D506E6A7}</ProjectGuid>
+    <ProjectGuid>{D9549E1A-C9F1-491F-8C50-299416F07C32}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Bank_Account</RootNamespace>
-    <AssemblyName>Bank Account</AssemblyName>
+    <RootNamespace>BankAccount</RootNamespace>
+    <AssemblyName>BankAccount</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
