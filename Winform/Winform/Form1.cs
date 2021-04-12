@@ -76,5 +76,15 @@ namespace Winform
         {
 
         }
+
+        private void btregistation_Click(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

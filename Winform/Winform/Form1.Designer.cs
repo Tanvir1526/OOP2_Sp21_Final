@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registation));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbuser = new System.Windows.Forms.TextBox();
+            this.tbfullname = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -66,6 +66,8 @@
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.btregistation = new System.Windows.Forms.Button();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -83,17 +85,17 @@
             this.label2.Name = "label2";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // textBox1
+            // tbuser
             // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            resources.ApplyResources(this.tbuser, "tbuser");
+            this.tbuser.Name = "tbuser";
+            this.tbuser.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // tbfullname
             // 
-            resources.ApplyResources(this.textBox2, "textBox2");
-            this.textBox2.Name = "textBox2";
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            resources.ApplyResources(this.tbfullname, "tbfullname");
+            this.tbfullname.Name = "tbfullname";
+            this.tbfullname.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label3
             // 
@@ -363,6 +365,19 @@
             resources.ApplyResources(this.comboBox7, "comboBox7");
             this.comboBox7.Name = "comboBox7";
             // 
+            // btregistation
+            // 
+            resources.ApplyResources(this.btregistation, "btregistation");
+            this.btregistation.Name = "btregistation";
+            this.btregistation.UseVisualStyleBackColor = true;
+            this.btregistation.Click += new System.EventHandler(this.btregistation_Click);
+            // 
+            // richTextBox2
+            // 
+            resources.ApplyResources(this.richTextBox2, "richTextBox2");
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
+            // 
             // Registation
             // 
             this.AllowDrop = true;
@@ -370,6 +385,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.DarkKhaki;
+            this.Controls.Add(this.richTextBox2);
+            this.Controls.Add(this.btregistation);
             this.Controls.Add(this.comboBox7);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.label19);
@@ -402,9 +419,9 @@
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tbfullname);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbuser);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -421,8 +438,8 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbuser;
+        private System.Windows.Forms.TextBox tbfullname;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox comboBox1;
@@ -456,6 +473,8 @@
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.Button btregistation;
+        private System.Windows.Forms.RichTextBox richTextBox2;
     }
 }
 
